@@ -16,7 +16,7 @@ if [ ! -e "/usr/bin/c4cpp" ]; then
 		echo "Script ended"
 
 	else 
-		echo "Would you like to extract c4cpp /usr/bin/? (y/n)"
+		echo "Would you like to extract c4cpp to /usr/bin/? (y/n)"
 		read choiceex
 		if [ "$choiceex" = "y" ]; then
 			echo "Building c4cpp..."

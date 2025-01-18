@@ -9,6 +9,13 @@ To install *c4cpp* on your machine, download the [c4cpp](https://github.com/enpa
 
 ``` dpkg -i c4cpp.deb ```
 
+1.1 - Install Script
+To install *c4cpp* with a install script, download the [install script](https://raw.githubusercontent.com/enpasant/c4cpp/master/install.sh) and, on a shell, execute:
+``` ./install.sh ```
+
+This will extract the binary to /usr/bin/ .
+
+
 ## 2 - Usage
 To run *c4cpp*, open a shell and type the following command:
 ``` c4cpp -e [equation] ```
